@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTSS Academy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <!-- Animasyonlu Yazılar -->
+        <div class="slide" id="hello">
+            <h1>
+                <span>H</span><span>E</span><span>L</span><span>L</span><span>O</span>
+            </h1>
+        </div>
+        <div class="slide" id="bootcamp">
+            <h2>We are a cutting-edge AI-powered solution, designed to transform your customer interactions.</h2>
+        </div>
+        <div class="slide" id="job-market">
+            <h2>We help businesses automate and optimize their customer support, sales, and engagement in just a few steps.</h2>
+        </div>
+        <div class="slide" id="fancy-website">
+            <h2>No need for complex systems – just effective AI-driven assistance that works for you.</h2>
+        </div>
+        <div class="slide" id="welcome">
+            <h2>
+                Meanwhile welcome to <br>
+                <span style="color: white;">&lt;/&gt;</span> 
+                <span style="color: #00bf63;">CT<span style="color: white;">SS</span> <span style="color: #00bf63;">A</span><span style="color: white;">I</span> Assist</span>
+            </h2>
+        </div>
+        <div class="slide" id="details">
+            <h2>You can schedule a demo when you want, just reach us.</h2>
+        </div>
+        
+        <!-- Sabit Resimler ve Butonlar -->
+        <!-- Sabit Resimler -->
+<div class="final">
+    <img src="/assets/bg-rmvd-logo.png" alt="Center Image" class="center">
+    <div class="text-container">
+        <button class="info-btn" onclick="window.open('https://wa.me/905397447498', '_blank')">Text Us</button>
+       <!--
+        <button class="info-btn" onclick="window.open('presentation-link-here')">Details</button>
+       --> 
+    </div>
+    <img src="/assets/remvbg-me-removebg-preview (1).png" alt="Bottom Right Image" class="bottom-right">
+
+    <div id="chatbot-bubble" style="display: none;">
+        <script>
+            window.chatpilotConfig = {
+                chatbotId: "14d2d76a95b043b9af75bbe18d9367b4",
+                domain: "https://www.newoaks.ai"
+            }
+        </script>
+        <script src="https://www.newoaks.ai/embed.min.js" charset="utf-8" defer></script>
+        <script>// Animasyon bitince chatbot'u gösteren fonksiyon
+            window.onload = function() {
+                setTimeout(function() {
+                    document.getElementById('chatbot-bubble').style.display = 'block'; // Chatbot'u göster
+                }, 13000); // 13 saniye sonra chatbot görünür olacak (animasyon bitiminden sonra)
+            }</script>
+    </div>
+</div>
+    </div>
+    
+   
+</body>
+</html>
